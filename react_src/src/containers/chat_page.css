@@ -1,0 +1,113 @@
+/* Set the overall layout */
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 56px);
+    font-family: Arial, sans-serif;
+}
+
+.conv-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+/* Style for the left vertical bar */
+.sidebar {
+    width: 30%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+}
+
+/* Style for the chat container */
+.chat-container {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Style for individual conversation items */
+.conversation-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+
+/* Style for conversation item text */
+.conversation-item-text {
+    font-weight: bold;
+}
+
+/* Style for active conversation item */
+.conversation-item.active {
+    background-color: #d1d1d1;
+}
+
+/* Style for chat input area */
+.chat-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.chat-input:focus-visible {
+    outline: none!important;
+    border-color: #c9b532;
+    box-shadow: 0 0 10px #cb205d;
+}
+
+.chat-input:focus-visible {
+    outline: none!important;
+    border-color: #71ce8e;
+    box-shadow: 0 0 10px #ad7171;
+}
+
+/* Style for send button */
+.send-button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for send button on hover */
+.send-button:hover {
+    background-color: #45a049;
+}
+
+.close-button {
+    background: transparent;
+    border: none;
+}
+
+.auto-suggestion {
+    padding-left: 5px;
+
+}
+
+.auto-suggestion:hover :focus {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.suggestion-list {
+    padding-left: 0;
+}
+

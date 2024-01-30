@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "chat_app",
+    "slug": "chat_app",
+    "sdkVersion": "1.0.0",
+    "privacy": "public",
+    "updates": {
+      "enable": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1161f47b-7393-4ea4-b411-5a95f8fb2d00"
+      }
+    }
+  }
+}

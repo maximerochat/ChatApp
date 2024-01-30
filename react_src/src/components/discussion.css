@@ -1,0 +1,30 @@
+
+
+.selected-conv {
+    background: #0d6efd;
+    color: white;
+}
+
+.card-header-layout {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.inner-header {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.close-style {
+    background: transparent;
+    border: none;
+    color: red;
+    transition: color 200ms ease-in-out;
+}
+
+
+.close-style:hover {
+    color: darkred;
+}
